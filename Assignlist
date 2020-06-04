@@ -1,0 +1,12 @@
+list1=[]
+list2=[]
+n=int(input())
+m=int(input())
+for i in range(0,n):
+    ele=int(input())
+    list1.append(ele)
+for i in range(0,m):
+    val=int(input())
+    list2.append(val)
+print(list1)
+print(list2)
