@@ -1,0 +1,4 @@
+my_tuple=(2,3,4)
+n=len(my_tuple)
+for i in range(0,n):
+    print(my_tuple[i])
