@@ -1,0 +1,10 @@
+F1=0
+F2=1
+n=int(input())
+print(F1)
+print(F2)
+for i in range (0,n):
+    F3=F2+F1
+    print(F3)
+    F1=F2
+    F2=F3
