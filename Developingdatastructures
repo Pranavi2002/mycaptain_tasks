@@ -1,0 +1,23 @@
+#Assigning elements to different lists
+list1=[]
+list2=[]
+n=int(input())
+m=int(input())
+for i in range(0,n):
+    ele=int(input())
+    list1.append(ele)
+for i in range(0,m):
+    val=int(input())
+    list2.append(val)
+print(list1)
+print(list2)
+#Accessing elements from a tuple
+my_tuple=(2,3,4)
+n=len(my_tuple)
+for i in range(0,n):
+    print(my_tuple[i])
+#Deleting differeft dictionary elements
+DICT={1:"apple",2:"banana",3:"citrus",4:"diamond",5:"elephant"}
+del(DICT[2])
+del(DICT[4])
+print(DICT)
