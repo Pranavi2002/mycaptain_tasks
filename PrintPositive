@@ -1,8 +1,8 @@
-list=[]
+p=[]
 n=int(input())
 for i in range (0,n):
     ele=int(input())
-    list.append(ele)
+    p.append(ele)
 for i in range (0,n):
-    if(list[i]>0):
-        print(list[i])
+    if(p[i]>0):
+        print(p[i])
